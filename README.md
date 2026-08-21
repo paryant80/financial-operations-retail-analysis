@@ -20,8 +20,6 @@ The project focuses on the type of work commonly seen in operations/reporting ro
 - MySQL
 - Python (Pandas)
 
-Power BI is intentionally not used.
-
 ## Business Questions
 
 1. What is the total transaction volume?
@@ -52,32 +50,7 @@ Source: UCI Online Retail dataset.
 Dataset page:
 https://archive.ics.uci.edu/dataset/352/online+retail
 
-The raw dataset should be downloaded separately and should not be committed to GitHub if the file size is inconvenient.
-
-## Folder Structure
-
-financial-operations-retail-analysis/
-│
-├── excel/
-│   └── Financial_Operations_Summary.xlsx
-├── sql/
-│   └── financial_operations_analysis.sql
-├── python/
-│   └── retail_analysis.py
-├── power_query/
-│   └── README.md
-├── results/
-│   └── key_results.csv
-├── docs/
-│   └── resume_bullets.txt
-└── README.md
-
 ## Suggested Workflow
 
 Raw Excel -> Power Query -> CleanData -> MySQL -> SQL analysis -> Python validation -> Financial Summary
 
-## Resume Description
-
-Financial Operations & Retail Transaction Analysis | Excel, Power Query, MySQL, Python
-
-Cleaned and transformed 541K+ retail transaction records using Power Query, built financial reporting for revenue and cancellations, performed country/product/monthly analysis in MySQL, and used Python/Pandas for basic validation and data-quality checks.
